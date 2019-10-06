@@ -18,7 +18,7 @@
 
 // Event data includes the socket FD,
 // a pointer to a fixed sized buffer,
-// number of bytes written and 
+// number of bytes written and
 // a boolean indicating whether the worker thread should stop.
 struct event_data {
   int fd;
@@ -288,3 +288,4 @@ int main (int argc, char *argv[]) {
 
   return EXIT_SUCCESS;
 }
+
